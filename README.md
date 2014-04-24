@@ -1,5 +1,5 @@
 ## "Getting and Cleaning Data" Course Project
-## (Summarizing Samsung Galaxy S accelerometer data)
+### (Summarizing Samsung Galaxy S accelerometer data)
 
 ### Setup
 #### Input data files
@@ -12,7 +12,7 @@ The method `run_analysis()` is the public method to be invoked.
 Depends on the `data.table` library.
 
 ##### Description
-'run_analysis()' creates a tidy data set from the Samsung data under WORK_DIR, as per the project requirements. It returns the tidy data set, and can optionally write the results to a specifed output file.
+`run_analysis()` creates a tidy data set from the Samsung data under WORK_DIR, as per the project requirements. It returns the tidy data set, and can optionally write the results to a specifed output file.
 
 ##### Usage
     run_analysis(outfile = NULL, ...)
